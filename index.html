@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+          rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://kit.fontawesome.com/358cb2e2c5.js" crossorigin="anonymous"></script>
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+<body style="position: relative">
+<aside id="hamburger_menu" class="d-none">
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a class="contact_btn" href="#">Contact</a></li>
+    </ul>
+</aside>
+<header>
+    <div class="wraper wraper-header">
+        <nav class="d-flex justify-content-between ">
+            <div class="logo"><a href="#">sunnyside</a></div>
+            <div >
+                <label for="hamburger" class="hamburger_mobile_icon">
+                    <img src="images/icon-hamburger.svg" alt="">
+                    <input style="display: none" id="hamburger" type="checkbox">
+                </label>
+                <ul class="hamburger_desktop">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a class="contact_btn" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="bot-header">
+            <h1>We are creatives</h1>
+            <div class="" style="text-align: center">
+                <a href="#gallery">
+                    <img src="images/icon-arrow-down.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <a name="gallery"></a>
+    <div class="d-grid gallery">
+        <div class="egg"></div>
+        <div class="transform text-card">
+            <h2>Transform your brand</h2>
+            <p>We are a full-service creative agency specializing in helping brands grow fast.
+                Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <p><a href="#">Learn more</a></p>
+        </div>
+        <div class="glass"></div>
+        <div class="stand text-card">
+            <h2>Stand out to the right audience</h2>
+            <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+                we’ll
+                build and
+                extend your brand in digital places.</p>
+            <p><a href="#">Learn more</a></p>
+        </div>
+        <div class="cherry image-text-card">
+            <h2>Graphic design</h2>
+            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+                potential clients’
+                attention.</p>
+        </div>
+        <div class="orange image-text-card">
+            <h2>Photography</h2>
+            <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business
+                image.</p>
+        </div>
+    </div>
+</section>
+<section class="testimonials wraper">
+    <h2>client testimonials</h2>
+    <div class="d-grid testimonials-list">
+        <div class="testimonials-card">
+            <div><img class="testimonials-img" src="images/image-thomas.jpg" alt="thomas"></div>
+            <div class="testimonials-review">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+                success made it a satisfying and enjoyable experience.
+            </div>
+            <div class="testimonials-author">Thomas S.</div>
+            <div class="testimonials-job">Chief Operating Officer</div>
+        </div>
+        <div class="testimonials-card">
+            <div><img class="testimonials-img" src="images/image-emily.jpg" alt="emily"></div>
+            <div class="testimonials-review">We put our trust in Sunnyside and they delivered, making sure our needs
+                were met and deadlines were always hit.
+            </div>
+            <div class="testimonials-author">Emily R.</div>
+            <div class="testimonials-job">Marketing Director</div>
+
+
+        </div>
+        <div class="testimonials-card">
+            <div><img class="testimonials-img" src="images/image-jennie.jpg" alt="jennie"></div>
+            <div class="testimonials-review"> Incredible end result! Our sales increased over 400% when we
+                worked
+                with Sunnyside. Highly
+                recommended!
+            </div>
+            <div class="testimonials-author"> Jennie F.
+            </div>
+            <div class="testimonials-job">Business Owner
+            </div>
+        </div>
+    </div>
+</section>
+<div class="d-grid grid2">
+    <div class="grid2-1"></div>
+    <div class="grid2-2"></div>
+    <div class="grid2-3"></div>
+    <div class="grid2-4"></div>
+</div>
+<footer>
+    <nav class="wraper">
+        <div class="d-flex justify-content-evenly footer-logo">
+            <a href="#">sunnyside</a>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div><a href="#">About</a></div>
+            <div><a href="#">Services</a></div>
+            <div><a href="#">Projects</a></div>
+        </div>
+        <div class="d-flex justify-content-evenly">
+            <div><a href="#"><img src="images/icon-facebook.svg" alt=""></a></div>
+            <div><a href="#"><img src="images/icon-instagram.svg" alt=""></a></div>
+            <div><a href="#"><img src="images/icon-twitter.svg" alt=""></a></div>
+            <div><a href="#"><img src="images/icon-pinterest.svg" alt=""></a></div>
+        </div>
+    </nav>
+</footer>
+
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+</div>
+<script src="main.js"></script>
+</body>
+</html>
